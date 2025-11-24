@@ -1,0 +1,198 @@
+Unity Editor version:    2020.3.27f1 (e759542391ea)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/2020.3.27f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/game56/Documents/GitHub/Hell-s-Rings
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50593
+Successfully changed project path to: /Users/game56/Documents/GitHub/Hell-s-Rings
+Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/game56/Documents/GitHub/Hell-s-Rings
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 56.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path /Applications/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game56/Documents/GitHub/Hell-s-Rings/Assets
+GfxDevice: creating device client; threaded=0
+2025-11-24 13:49:33.809 Unity[3916:206019] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2025-11-24 13:49:33.809 Unity[3916:206019] Metal devices available: 1
+2025-11-24 13:49:33.809 Unity[3916:206019] 0: AMD Radeon Pro 5500 XT (high power)
+2025-11-24 13:49:33.810 Unity[3916:206019] Using device AMD Radeon Pro 5500 XT (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500 XT
+Initialize mono
+Mono path[0] = '/Applications/2020.3.27f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000476 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 51.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.583 seconds
+Domain Reload Profiling:
+	ReloadAssembly (583ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (471ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006337 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 53.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.249 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1250ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1043ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.008847 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.003054 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 271.2 MB.
+System memory in use after: 269.0 MB.
+
+Unloading 204 unused Assets to reduce memory usage. Loaded Objects now: 3769.
+Total: 5.760039 ms (FindLiveObjects: 0.438981 ms CreateObjectMapping: 0.353262 ms MarkObjects: 3.862738 ms  DeleteObjects: 1.102980 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Environment/Art/Animation/Main CameraTimeline.playable
+  artifactKey: Guid(970268aded3864f8cad40273bae6bca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Art/Animation/Main CameraTimeline.playable using Guid(970268aded3864f8cad40273bae6bca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e065f66f8966619c93205bdf10e8fd') in 1.011425 seconds 
+  Import took 1.021278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.334075 seconds.
+  path: Assets/Scenes/Syenna's scene.unity
+  artifactKey: Guid(719c079b936214dbeb114c5373f12812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Syenna's scene.unity using Guid(719c079b936214dbeb114c5373f12812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef548c613f9ada25394898b1fd2c9322') in 0.001526 seconds 
+  Import took 0.006708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.419216 seconds.
+  path: Assets/Environment/Art/Animation/Main CameraTimeline.playable
+  artifactKey: Guid(970268aded3864f8cad40273bae6bca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Art/Animation/Main CameraTimeline.playable using Guid(970268aded3864f8cad40273bae6bca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37c0e242525702dddd4bb5629dfe86f') in 0.004032 seconds 
+  Import took 0.008962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.887801 seconds.
+  path: Assets/Environment/Art/Materials/TheMonsterTimeline.playable
+  artifactKey: Guid(3e1a4441bb0d8450bbf4b2fdb05aedac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Art/Materials/TheMonsterTimeline.playable using Guid(3e1a4441bb0d8450bbf4b2fdb05aedac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e98d7dfd48606ef4ea3317d16c4ef8e') in 0.005008 seconds 
+  Import took 0.010558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.804339 seconds.
+  path: Assets/Mobile/Scripts/CanvasInputs
+  artifactKey: Guid(0777899404b4b2b4696f1032f3231697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile/Scripts/CanvasInputs using Guid(0777899404b4b2b4696f1032f3231697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727aa3692067a35e08c78e8d0736a7eb') in 0.002269 seconds 
+  Import took 0.007553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.902403 seconds.
+  path: Assets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs
+  artifactKey: Guid(f2cb8c4d669392748bb924209de33b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs using Guid(f2cb8c4d669392748bb924209de33b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af60b9bd968c43e6e3b5229fa2ebb70') in 0.298494 seconds 
+  Import took 0.306095 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
