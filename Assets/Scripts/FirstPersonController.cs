@@ -64,6 +64,9 @@ namespace StarterAssets
 		private float _jumpTimeoutDelta;
 		private float _fallTimeoutDelta;
 
+        GameObject[] pauseScreen;
+        bool pasueState = false;
+
 	
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 		private PlayerInput _playerInput;
@@ -88,11 +91,20 @@ namespace StarterAssets
 
 		private void Awake()
 		{
+			 Cursor.lockState = CursorLockMode.Locked;
 			// get a reference to our main camera
 			if (_mainCamera == null)
 			{
 				_mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
 			}
+
+            pauseScreen = GameObject.FindGameObjectsWithTag("Pause Menu");
+            foreach (GameObject pauseItem in pauseScreen)
+            {
+                pauseItem.SetActive(false);
+            }
+
+
 		}
 
 		private void Start()
@@ -271,14 +283,17 @@ namespace StarterAssets
 			
 			if(_input.pause)
 			{
-				Debug.Log("here");
-				var pauseScreen[] = GameObject.FindGameObjectsWithTag("Pause Menu");
-
-				for (var pauseItem : GameObject in pauseScreen)
-				{
-					pauseItem.SetActive(true);
-				}
-
+				Cursor.lockState = CursorLockMode.None;
+				pasueState = !pasueState;
+                foreach (GameObject pauseItem in pauseScreen)
+                {
+                    pauseItem.SetActive(pasueState);
+                }
+                _input.pause = false;
+			}
+			if(pasueState == false)
+			{
+				Cursor.lockState = CursorLockMode.Locked;
 			}
 		}
 	}

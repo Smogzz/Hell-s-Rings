@@ -16,4 +16,15 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(sceneName);
     }
+
+    public void LevelOne()
+    {
+        SceneManager.LoadScene("Shaids playground");
+       
+    } 
+
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    } 
 }
