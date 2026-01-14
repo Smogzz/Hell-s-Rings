@@ -6,6 +6,9 @@ TagManager:
   tags:
   - CinemachineTarget
   - Enemy
+  - Pause Menu
+  - ground
+  - Follower
   layers:
   - Default
   - TransparentFX
