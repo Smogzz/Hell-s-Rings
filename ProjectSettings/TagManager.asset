@@ -9,6 +9,7 @@ TagManager:
   - Pause Menu
   - ground
   - Follower
+  - test
   layers:
   - Default
   - TransparentFX
